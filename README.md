@@ -81,7 +81,7 @@ The script is broken down into clear, functional modules:
 
 - **Creating the Admin Group**
 
-  ![Script Section: Create Group](images/rhbang.png)
+  ![Script Section: Create Group](images/rshbang.png)
   
   - Checks for existence, creates if needed.
   - Attaches the AWS-managed `AdministratorAccess` policy.
@@ -95,7 +95,7 @@ The script is broken down into clear, functional modules:
 
 - **Main Execution Flow**
 
-  ![Script Output](images/anshbang.png)
+  ![Script Output](images/nshbang.png)
   
   - Verifies AWS CLI presence.
   - Executes user creation, group creation, and assignment functions sequentially.
@@ -111,7 +111,7 @@ The script is broken down into clear, functional modules:
 
 - **Make Executable**
   
-  ![Make Executable](images/nashbang.png)
+  ![Make Executable](images/xshbang.png)
   ```bash
   chmod +x aws-iam-manager.sh
   ```
